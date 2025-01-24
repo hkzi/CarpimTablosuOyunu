@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarpimTablosuOyunu", "CarpimTablosuOyunu\CarpimTablosuOyunu.csproj", "{3C52D210-9602-4E58-AAB5-70E5E8417469}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarpimTablosuOyunuMVC", "CarpimTablosuOyunuMVC\CarpimTablosuOyunuMVC.csproj", "{F6FA9C91-8CB0-4ED9-895F-761D5924206E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3C52D210-9602-4E58-AAB5-70E5E8417469}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C52D210-9602-4E58-AAB5-70E5E8417469}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C52D210-9602-4E58-AAB5-70E5E8417469}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C52D210-9602-4E58-AAB5-70E5E8417469}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6FA9C91-8CB0-4ED9-895F-761D5924206E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6FA9C91-8CB0-4ED9-895F-761D5924206E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6FA9C91-8CB0-4ED9-895F-761D5924206E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6FA9C91-8CB0-4ED9-895F-761D5924206E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E8CDC00D-4265-4C13-8DD9-9A62EB220452}
+	EndGlobalSection
+EndGlobal

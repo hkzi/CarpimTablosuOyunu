@@ -1,0 +1,56 @@
+﻿@model CarpimTablosuOyunu.GameModel
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tebrikler!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        .container {
+            display: inline-block;
+            padding: 20px;
+            border-radius: 8px;
+            background-color: #f0f8ff;
+        }
+        h1 {
+            font-size: 36px;
+            color: #4CAF50;
+        }
+        .btn {
+            font-size: 18px;
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            text-decoration: none;
+        }
+        .btn:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>🎉 Tebrikler! 🎉</h1>
+    <p>Hedef puana ulaştınız!</p>
+    <p>Toplam Puanınız: <strong>@Model.Puan</strong></p>
+
+    <!-- En yüksek puanı göster -->
+    <p>En Yüksek Puanınız: <strong>@Model.EnYuksekPuan</strong></p>
+
+    <!-- Yeniden Oyna butonu için form -->
+    <form method="post" asp-action="YeniOyun">
+        <button type="submit" class="btn">Yeniden Oyna</button>
+    </form>
+</div>
+
+</body>
+</html>
+
