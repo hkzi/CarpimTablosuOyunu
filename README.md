@@ -26,6 +26,7 @@ Projenin Visual Studio'da çalıştırılabilmesi için şu adımları izleyin:
 
 Visual Studio'yu açın ve CarpimTablosuOyunu klasörünü açın.
 Projeyi çalıştırmak için F5 tuşuna basın.
+
 3. Oyun Nasıl Oynanır?
 Oyunda, ekranda bir çarpma işlemi (örneğin, 4 * 5) görünür.
 Oyuncu doğru cevabı girerek puan kazanır.
